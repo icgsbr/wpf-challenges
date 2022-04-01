@@ -10,12 +10,8 @@ namespace Easy
     public class Util
     {
 
-        public static string[] readFile()
+        public static string[] readFile(string filePath)
         {
-            Console.Write("Type your file path: ");
-            string inputFile = Console.ReadLine();
-            string filePath = @inputFile.Trim('"');
-
             string[] lines = File.ReadAllLines(filePath);
             string[] linesStringArray = lines[0].Split(',');
             

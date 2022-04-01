@@ -13,7 +13,11 @@ namespace Easy
         {
             try
             {
-                string[] file = Util.readFile();
+                Console.Write("Type your file path: ");
+                string inputFile = Console.ReadLine();
+                string filePath = @inputFile.Trim('"');
+
+                string[] file = Util.readFile(filePath);
 
                 int[] fileAsInt = Util.transformIntoInteger(file);
 
