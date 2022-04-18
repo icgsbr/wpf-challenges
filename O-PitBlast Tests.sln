@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEasy.UnitTests", "TestE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Medium", "Medium\Medium.csproj", "{C489C7E5-F549-4FC0-A81A-3947C98BCA3B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hard", "Hard\Hard.csproj", "{1E4C7756-72FA-4C77-9A6C-05AB6CFE71A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C489C7E5-F549-4FC0-A81A-3947C98BCA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C489C7E5-F549-4FC0-A81A-3947C98BCA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C489C7E5-F549-4FC0-A81A-3947C98BCA3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E4C7756-72FA-4C77-9A6C-05AB6CFE71A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E4C7756-72FA-4C77-9A6C-05AB6CFE71A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E4C7756-72FA-4C77-9A6C-05AB6CFE71A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E4C7756-72FA-4C77-9A6C-05AB6CFE71A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
